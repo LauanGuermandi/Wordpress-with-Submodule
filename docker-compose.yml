@@ -4,7 +4,8 @@ services:
   web:
     image: nginx:alpine
     ports:
-    - "80:80"
+    - "8002:80"
+    - "9009:9000"
     volumes:
     - .:/usr/share/nginx/html
     - ./nginx.conf:/etc/nginx/conf.d/default.conf
