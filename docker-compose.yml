@@ -18,7 +18,7 @@ services:
     volumes:
     - .:/usr/share/nginx/html
     ports:
-    - "9009:9000"
+    - "9006:9000"
   db:
     image: mysql:5.7
     ports:
