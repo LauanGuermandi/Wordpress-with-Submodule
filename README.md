@@ -1,1 +1,1 @@
-# wp-core-separate
+# wp-core-splited
